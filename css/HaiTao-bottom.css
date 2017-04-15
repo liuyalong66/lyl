@@ -1,0 +1,180 @@
+
+
+.h_bottom_top{
+	width:100%;
+	height:204px;
+	background:#fff;
+	
+}
+.h_bottom_top01{
+	width:1260px;
+	height:204px;
+	margin:0 auto;
+	background:#fff;
+	
+}
+.h_bottom_top02{
+	margin-left:35px;
+	padding:30px 0;
+	float:left;
+}
+.h_bottom_top02 dl{
+	width:100px;
+	float:left;
+	padding:0 20px 0 60px;
+}
+.h_bottom_top02 dl dt{
+	color:#999;
+	font-size:16px;
+	padding-bottom:10px;
+	font-weight: bold;
+}
+.h_bottom_top02 dl dd a{
+	display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #000;
+    font-size: 12px;
+}
+.h_bottom_top02 dl dd a:hover{
+	color:#E10482;
+	
+}	
+.h_bottom_top02 .last{
+	width:110px;
+	text-align: center;
+	
+}
+
+.h_bottom_center{
+	width:100%;
+	height:38px;
+	background:#000000;
+	
+	
+}
+.h_bottom_center_01{
+	width:1260px;
+	height:38px;
+	margin:0 auto;
+	background:#000000;
+	
+}
+.h_bottom_center_left{
+	float:left;
+	margin-left:35px;
+	background:url(../images/img130.gif) no-repeat left center;
+}
+.h_bottom_center_left span{
+	display:inline-block;
+	height:38px;
+	line-height: 38px;
+	font-size:18px;
+	color:#E10482;
+	padding-left:36px;
+}
+.h_bottom_center_right{
+	float:right;
+	margin-right:39px;
+}
+.h_bottom_center_right a{
+	display:inline-block;
+	height:38px;
+	line-height: 38px;
+	padding:0 10px;
+	color:#fff;
+	font-size:12px;
+}
+.h_bottom_center_right a:hover{
+	background:#E10482;
+}
+.h_bottom_last{
+	width:100%;
+	height:130px;
+	background:#fff;
+	
+}
+.h_bottom_last_01{
+	width:1260px;
+	height:130px;
+	margin:0 auto;
+	background:#fff;
+}
+.h_bottom_last_center{
+	margin-left:35px;
+	text-align: center;
+}
+.h_bottom_last_top{
+	padding-top:16px;
+	
+}
+.h_bottom_last_top a{
+	margin-left:10px;
+	
+}
+.h_bottom_last_top a:hover{
+	color:#E10482;
+}
+.h_bottom_last_bottom{
+	border:1px solid #eee;
+	margin:20px 0;
+	
+}
+.h_bottom_last_bottom a{
+	display:inline-block;
+	padding:0 22px;
+	margin:6px 0;
+	
+}
+.h_bottom_last_bottom div{
+	display:inline-block;
+	padding:0 22px;
+	margin:6px 0;
+}
+.h_bottom_last_bottom img{
+	display:block;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

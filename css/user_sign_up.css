@@ -1,0 +1,570 @@
+body{font-family: "Myriad Pro", Arial, "FZLanTingHei-R-GBK", 方正兰亭黑, "Microsoft YaHei", 微软雅黑, STHeiti, 华文黑体, SimSun, 宋体, sans-serif;margin:0 auto;padding:0;background:#FFF;font-size:12px;color:#666;list-style:none;}
+div,form,ul,ol,li,span,p,dl{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,dl,ol,li{list-style:none}
+table,td,input{font-size:12px}
+a{outline-style:none;color:#333;text-decoration:none}
+img{display:block;}
+i{font-style:normal;}
+em,i{font-style:normal;}
+dd{margin:0;}
+
+
+/*logo设置*/
+
+
+.sign_up{
+	width:100%;
+	height:144px;
+	background:#fff;
+	
+	
+}
+.sign_up_01{
+	width:1260px;
+	height:144px;
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+	background:url(../images/bg_head.jpg) no-repeat;
+	background-position:-151px 0 ;
+}
+.sign_up_02{
+	clear: both;
+	width:241px;
+	height:71px;
+	float:left;
+	margin-top:30px;
+	margin-left:20px;
+	display:inline;
+}
+.sign_up_02 img{
+	float:left;
+	border:0;
+}
+.sign_up_03{
+	
+	float:left;
+	width:212px;
+	height:18px;
+	background:url(../images/zi.gif) no-repeat;
+	margin-top:50px;
+}
+
+.sign_up_top{
+	width:100%;
+	height:185px;
+	background:#f5f5f5;
+}
+.sign_up_top01{
+	width:1260px;
+	height:145px;
+	background:#f5f5f5;
+	margin:0 auto;
+	padding:20px 0;
+}
+.sign_up_top_left{
+	float:left;
+	width:300px;
+	height:45px;
+	padding:30px 0;
+	margin-left:120px;
+	
+}
+.sign_up_top_left .sign_up_top_left01{
+	width:165px;
+	height:45px;
+	display:block;
+	float:left;
+	background:url(../images/login.png) no-repeat;
+	background-position: -200px 0;
+}
+.sign_up_top_left .sign_up_top_left02{
+	width: 84px;
+	color:#000000;
+	padding: 5px 0 0 15px;
+	line-height: 18px;
+	float: left;
+	font-size:14px;
+}
+.sign_up_top_right{
+	float:right;
+	padding:45px 0;
+	margin-right:120px;
+	
+}
+.sign_up_top_right span{
+	color:#000000;
+	font-size:14px;
+}
+.sign_up_top_right a{
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	padding-left:15px;
+	background:url(../images/btn.png) no-repeat;
+	background-position: left -523px;
+	text-align: center;
+}
+.sign_up_top_right a span{
+	display:block;
+	height:30px;
+	line-height:30px;
+	padding-right:15px;
+	background:url(../images/btn.png) no-repeat;
+	background-position: right -492px;
+	text-align: center;
+	cursor: pointer;
+	color:#E10482;
+}
+.sign_up_top_right a:hover{
+	background:url(../images/btn.png) no-repeat;
+	background-position: left -399px;
+	
+}
+.sign_up_top_right a:hover span{
+	background:url(../images/btn.png) no-repeat;
+	background-position: right -368px;
+	color:#fff;
+}
+
+/*-----------------------注册框-------------------*/
+.sign_up_top_center{
+	width:100%;
+	height:655px;
+	background:#fff;
+}
+.sign_up_top_center01{
+	width:1260px;
+	height:434px;
+	background:#fff;
+	margin:0 auto;
+	padding:20px 0 200px 0;
+}
+.sign_up_top_center02{
+	width:1020px;
+	height:374px;
+	padding:30px 0;
+	margin-left:120px;
+}
+.sign_up_top_center_left{
+	width:622px;
+	height:355px;
+	float:left;
+	
+}
+.sign_up_top_center_right{
+	width:340px;
+	float:right;
+	
+	
+}
+
+
+
+
+/*-----------------------注册设置-------------------*/
+
+/*-----------------------手机号框-------------------*/
+
+.sign_up_none{
+	float:left;
+	
+}
+.sign_up_none_name{
+	float:left;
+	width:336px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	position:relative;
+}
+.sign_up_none_name .s1{
+	float:left;
+	height:46px;
+	width:78px;
+	font-size:14px;
+	line-height: 46px;
+	text-align: center;
+	background:#f5f5f5;
+	border-right:1px solid #ccc;
+	border-radius: 4px;
+}
+.sign_up_none_name input{
+	width:228px;
+	height:44px;
+	line-height: 46px;
+	float:left;
+	border:0;
+	margin-left:10px;
+	outline:none;
+}
+.sign_up_none_name .s2{
+	color:#E10482;
+	position:absolute;
+	left:0;
+	top:45px;
+	height:30px;
+	line-height: 30px;
+	
+}
+/*==============验证框---------------------*/
+.sign_up_none_pass{
+	
+	float:left;
+	width:336px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	position:relative;
+	margin-top: 30px;
+}
+.sign_up_none_pass .p1{
+	float:left;
+	height:46px;
+	width:78px;
+	font-size:14px;
+	line-height: 46px;
+	text-align: center;
+	background:#f5f5f5;
+	border-right:1px solid #ccc;
+	border-radius: 4px;
+}
+.sign_up_none_pass input{
+	width:228px;
+	height:44px;
+	line-height: 46px;
+	float:left;
+	border:0;
+	margin-left:10px;
+	outline:none;
+}
+.sign_up_none_pass .p2{
+	color:#E10482;
+	position:absolute;
+	left:0;
+	top:45px;
+	height:30px;
+	line-height: 30px;
+	
+}
+
+
+
+/*-------------------获取短信验证码------------------------------*/
+.sign_up_none_SMS{
+	float:left;
+	width:336px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	position:relative;
+	margin-top:30px;
+}
+.sign_up_none_SMS .S01{
+	float:left;
+	height:46px;
+	width:78px;
+	font-size:14px;
+	line-height: 46px;
+	text-align: center;
+	background:#f5f5f5;
+	border-right:1px solid #ccc;
+	border-radius: 4px;
+}
+.sign_up_none_SMS input{
+	width:228px;
+	height:44px;
+	line-height: 46px;
+	float:left;
+	border:0;
+	margin-left:10px;
+	outline:none;
+}
+.sign_up_none_SMS .S02{
+	color:#E10482;
+	position:absolute;
+	left:0;
+	top:45px;
+	height:30px;
+	line-height: 30px;
+	
+}
+.sign_up_none_SMS .S03{
+	width:105px;
+	height:32px;
+	position:absolute;
+	right:5px;
+	top:10px;
+	color:#E10482;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+
+
+/*--------点击button下一步设置------------------------*/
+.sign_up_none_pass a{
+	
+}
+.sign_up_none_pass a img{
+	width:105px;
+	height:32px;
+	position:absolute;
+	right:5px;
+	top:10px;
+}
+.sign_up_none_sign{
+	float:left;
+	width:340px;
+	height:38px;
+	text-align: center;
+	margin-top:50px;
+}
+.sign_up_none_sign button{
+	color:#fff;
+	font-size:16px;
+	background:#E10482;
+	/*background:#7F7F7F;*/
+	width:100px;
+	height:38px;
+	border:0;
+	border-radius: 50px;
+	cursor:pointer;
+	outline: auto;
+	
+}
+
+
+/*--------------账号------------------------*/
+.sign_up_top_center_right02{
+	float:left;
+	display:none;
+}
+.sign_up_name{
+	float:left;
+	width:336px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	position:relative;
+}
+.sign_up_name .S1{
+	float:left;
+	height:46px;
+	width:78px;
+	font-size:14px;
+	line-height: 46px;
+	text-align: center;
+	background:#f5f5f5;
+	border-right:1px solid #ccc;
+	border-radius: 4px;
+}
+.sign_up_name input{
+	width:228px;
+	height:44px;
+	line-height: 46px;
+	float:left;
+	border:0;
+	margin-left:10px;
+	outline:none;
+}
+.sign_up_name .S2{
+	color:#E10482;
+	position:absolute;
+	left:0;
+	top:45px;
+	height:30px;
+	line-height: 30px;
+	
+}
+
+
+/*==============密码---------------------*/
+.sign_up_pass_up{
+	float:left;
+	width:336px;
+	height:96px;
+	border:1px solid #ccc;
+	margin-top: 30px;
+	border-radius: 3px;
+	position:relative;
+}
+.sign_up_pass{
+	float:left;
+	width:336px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	position:relative;
+	
+}
+.sign_up_pass .P1{
+	float:left;
+	height:46px;
+	width:78px;
+	font-size:14px;
+	line-height: 46px;
+	text-align: center;
+	background:#f5f5f5;
+	border-right:1px solid #ccc;
+	border-radius: 4px;
+}
+.sign_up_pass input{
+	width:228px;
+	height:44px;
+	line-height: 46px;
+	float:left;
+	border:0;
+	margin-left:10px;
+	outline:none;
+}
+.sign_up_pass_01{
+	float:left;
+	width:336px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	
+	
+	
+}
+
+.sign_up_pass_01 .P01{
+	float:left;
+	height:46px;
+	width:78px;
+	font-size:14px;
+	line-height: 46px;
+	text-align: center;
+	background:#f5f5f5;
+	border-right:1px solid #ccc;
+	border-radius: 4px;
+}
+.sign_up_pass_01 input{
+	width:228px;
+	height:44px;
+	line-height:46px;
+	float:left;
+	border:0;
+	margin-left:10px;
+	outline:none;
+}
+.sign_up_pass_up .P02{
+	color:#E10482;
+	position:absolute;
+	left:0;
+	top:96px;
+	height:30px;
+	line-height: 30px;
+	
+}
+	
+
+
+.sign_up_sign{
+	float:left;
+	width:340px;
+	height:38px;
+	text-align: center;
+	margin-top:50px;
+}
+.sign_up_sign button{
+	color:#fff;
+	font-size:16px;
+	background:#E10482;
+	width:160px;
+	height:38px;
+	border:0;
+	border-radius: 50px;
+	
+}
+
+
+/*---------------------------登录底部设置--------------------------------------*/
+
+.h_bottom_center{
+	width:100%;
+	height:38px;
+	background:#000000;
+	
+	
+}
+.h_bottom_center_01{
+	width:1260px;
+	height:38px;
+	margin:0 auto;
+	background:#000000;
+	
+}
+.h_bottom_center_left{
+	float:left;
+	margin-left:35px;
+	background:url(../images/img130.gif) no-repeat left center;
+}
+.h_bottom_center_left span{
+	display:inline-block;
+	height:38px;
+	line-height: 38px;
+	font-size:18px;
+	color:#E10482;
+	padding-left:36px;
+}
+.h_bottom_center_right{
+	float:right;
+	margin-right:39px;
+}
+.h_bottom_center_right a{
+	display:inline-block;
+	height:38px;
+	line-height: 38px;
+	padding:0 10px;
+	color:#fff;
+	font-size:12px;
+}
+.h_bottom_center_right a:hover{
+	background:#E10482;
+}
+.h_bottom_last{
+	width:100%;
+	height:103px;
+	background:#fff;
+	
+}
+.h_bottom_last_01{
+	width:1260px;
+	height:103px;
+	margin:0 auto;
+	background:#fff;
+}
+.h_bottom_last_center{
+	margin-left:35px;
+	text-align: center;
+}
+.h_bottom_last_top{
+	padding-top:16px;
+	
+}
+.h_bottom_last_top a{
+	margin-left:10px;
+	
+}
+.h_bottom_last_top a:hover{
+	color:#E10482;
+}
+.h_bottom_last_bottom{
+	border:1px solid #eee;
+	margin:20px 0;
+	
+}
+.h_bottom_last_bottom a{
+	display:inline-block;
+	padding:0 22px;
+	margin:6px 0;
+	
+}
+.h_bottom_last_bottom div{
+	display:inline-block;
+	padding:0 22px;
+	margin:6px 0;
+}
+.h_bottom_last_bottom img{
+	display:block;
+	
+}

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		
+		<link rel="stylesheet" type="text/css" href="../css/Shopping_Cart.css" />
+		<link rel="stylesheet" type="text/css" href="../css/HaiTao_right_user.css"/>
+		
+	</head>
+	<body>
+		<!--top设置-->
+		
+		<div class="top">
+			<div class="top01">
+				<div class="top01_left">
+					<a href="../user/HT-sign_up.html"> 登录  </a>
+					<a href="../user/HT-sign_up.html">免费注册</a>
+					<a href="javascript:void(0)" class="ac">
+						<span></span>
+						手机版
+					</a>
+				</div>
+				<div class="top01_right">
+						<a href="javascript:void(0)">我的订单</a>
+						<span></span>
+						<a href="javascript:void(0)">我的优惠券</a>
+						<span></span>
+						<a href="javascript:void(0)">我的收藏</a>
+						<span></span>
+						<a href="javascript:void(0)">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		
+<!--logo设置-->
+		<div class="logo">
+			<div class="logo01">
+				<div class="logo01_left">
+					<a href="../index.html"><img src="../images/img91.png"></a>
+				</div>
+				<div class="logo01_center"></div>
+				<div class="logo01_right">
+					<div class="logo01_right_01">
+						<input type="text" placeholder="搜索商品">
+						<button>搜索</button>
+					</div>
+					<div class="logo01_right_02">
+						<a href="../HTcommdydetails/HTcommdydetails.html">面霜</a>
+						<a href="javascript:void(0)">| 面膜</a>
+						<a href="javascript:void(0)">| 洁面</a>
+						<a href="javascript:void(0)">| 奶粉</a>
+						<a href="javascript:void(0)">| 纸尿裤</a>
+						<a href="javascript:void(0)"> | 辅食</a>
+						<a href="javascript:void(0)">| 宝宝营养</a>
+						<a href="javascript:void(0)">| 唇部彩妆</a>
+						<a href="javascript:void(0)">| 身体护理</a>
+						<a href="javascript:void(0)">| 身体护理</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--------------中间商品信息----------------------------------------->
+		<div class="Prompt">
+			<div class="Prompt_01">
+				<div class="Prompt_Ct">
+					<div class="Prompt_Wz"></div>
+					<span class="one">1.购物袋</span>
+					<span class="two">2.确认订单信息</span>
+					<span class="three">3.付款</span>
+				</div>
+			</div>
+		</div>
+		<!--下边订单信息-->
+	<div class="indent_Prompt">
+		<div class="indent_Prompt_tab">
+				<table>
+					<thead>
+						<tr>
+							<th width="60px">
+							<input type="checkbox" id="Qx">
+							<label for="Qx">全选</label>
+							</th>
+							<th width="424px">商品</th>
+							<th width="157px">单价</th>
+							<th width="117px">数量</th>
+							<th width="117px">小计</th>
+							<th width="117px">操作</th>
+						</tr>
+					</thead>
+				</table>
+		</div>
+		<div class="indent_Prompt_cen">
+			<div class="indent_Prompt_cen_01">
+				<input type="checkbox" id="Dz">
+				<label for="Dz">国内现货1号仓</label>
+			</div>
+			<div class="indent_Prompt_Center">
+				<table>
+					<tbody id="indent_Prompt_Center01">
+						<tr class="Cuj">
+							<td width="49px">
+								<input type="checkbox">
+							</td>
+							<td width="417px" class="indent_Prompt_Cs">
+								<div class="indent_Prompt_Cs_01">
+									<a heft="javascript:void(0)" class="Tp">
+									<img src="../HTcommdydetails/images/Cream/img47.jpg" >
+										 
+									</a>
+									<div class="Name">
+										<a href="javascript:void(0)">Olay/玉兰油 水感透白亮肤面霜 50g</a>
+									</div>
+								</div>
+								
+							</td>
+							<td width="159px" class="Price">
+								<span>￥140.00</span>
+							</td>
+							<td class="Number" width="116px">
+								<div class="Numer_big">
+									<a href="javascript:void(0)"  class="Number_01">-</a>
+									<input type="text" value="1">
+									<a href="javascript:void(0)" class="Number_02">+</a>
+								</div>
+							</td>
+							<td class="Number_02" width="116px">
+								<b>￥140.00</b>
+							</td>
+							<td class="Number_03" width="116px">
+								<a href="javascript:void(0)"></a>
+							</td> 
+						</tr>
+						<tr class="Number_Bott">
+							<td class="Number_Bott02" colspan="6">
+								<span>
+									商品金额:
+									<strong class="mius"></strong>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+<!---=-------------商品结算------------------>
+			<div class="Settlement">
+				<a href="../HTcommdydetails/HTcommdydetails.html" class="Settlement_top">继续购物</a>
+				<div class="Settlement_right">
+					<div class="Settlement_right_Ri">
+						<a heft="javascript:void(0)">
+							<span>去结算</span>
+						</a>
+					</div>
+					<div class="Settlement_right_01">
+						<ul>
+							<li class="Settlement_right_left">
+							  已选
+								<span>0</span>
+							 件商品，合计（不含运费及税费）
+							 <span class="Spa">
+							 	<i>￥</i>
+							 	<span class="Spa01">0.00</span>
+							 </span>
+							</li>
+							<li class="Settlement_right_left01">
+								商品总计：¥
+								<span class="Sn">0.00</span> 
+								活动优惠：¥
+								<span class="Sn01">0.00</span>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!--热销推荐-->
+		<div class="Recommend">
+			<div class="Recommend_top">热销推荐</div>
+			<div class="Recommend_top_Center">
+				<ul class="Recommend_top_Center01">
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/1388ff725.jpg">
+							<p>Regen/丽珍 纯棉超细纤维美白皮肤面膜贴 10片</p>
+							<div class="Recommend_top_Center_02">¥
+								<span>98.00</span>
+							</div>
+							<div class="Recommend_Botom">
+								<span>立即购买</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/f662dbe29.jpg">
+							<p>VDL 立体璀璨持久粉底液 30ml</p>
+							<div class="Recommend_top_Center_02">¥
+								<span>169.00</span>
+							</div>
+							<div class="Recommend_Botom">
+								<span>立即购买</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/b4220c9d9.jpg">
+							<p>AVENT/新安怡 自然原生新生儿防胀气宽口径玻璃奶瓶 </p>
+							<div class="Recommend_top_Center_02">¥
+								<span>139.00</span>
+							</div>
+							<div class="Recommend_Botom">
+								<span>立即购买</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/fd61aa309.jpg">
+							<p>Blackmores preg + breastfeeding gold 孕妇黄</p>
+							<div class="Recommend_top_Center_02">¥
+								<span>228.00</span>
+							</div>
+							<div class="Recommend_Botom">
+								<span>立即购买</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/88c9ef86a.jpg">
+							<p>CANMAKE/井田 唇部遮瑕膏 9g</p>
+							<div class="Recommend_top_Center_02">¥
+								<span>68.00</span>
+							</div>
+							<div class="Recommend_Botom">
+								<span>立即购买</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+		
+			
+<!------------------登录底部设置------------------------------------------------>
+		<div class="h_bottom_center">
+			<div class="h_bottom_center_01">
+				<div class="h_bottom_center_left">
+					<span>4008-006-006</span>
+				</div>
+				<div class="h_bottom_center_right">
+					<a href="javascript:void(0)">公司简介</a>
+					<a href="javascript:void(0)">联系我们</a>
+					<a href="javascript:void(0)">大事记</a>
+					<a href="javascript:void(0)">人才招募</a>
+					<a href="javascript:void(0)">帮助中心</a>
+					<a href="javascript:void(0)"> 法律声明</a>
+					<a href="javascript:void(0)">合作专区</a>
+					<a href="javascript:void(0)">友情链接</a>
+					
+				</div>
+			</div>	
+		</div>
+		<div class="h_bottom_last">
+			<div class="h_bottom_last_01">
+				<div class="h_bottom_last_center">
+					<p class="h_bottom_last_top">
+						Copyright © 2010 - 2016, 版权所有 HITAO.TOP    湘ICP备10012668号-3  嗨淘全球网　|
+						<a href="javascript:void(0)">营业执照</a>
+					</p>
+					<div class="h_bottom_last_bottom">
+						<a href="javascript:void(0)">
+							<img src="../images/img117.png">
+						</a>
+						<a href="javascript:void(0)">
+							<img src="../images/img115.png">
+						</a>
+						<a href="javascript:void(0)">
+							<img src="../images/img111.png">
+						</a>
+						<div>
+							<img src="../images/img116.png">
+						</div>
+						<div>
+							<img src="../images/img79.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- usercenter浮动用户信息 -->
+		<div class="h_user_right">
+			<ul class="h_user_right_top">
+				<li class="h_user_right_top01">
+					<a href="javascript:void(0)" class="user_cs"></a>
+					<div class="user_hide_01">
+						<span class="user_pn"><a href="javascript:void(0)" title="在线客服">在线客服</a></span>
+						<span class="user_pan">
+       						 时间：9:00-24:00
+       				 		<br>
+       						 热线：4008-006-006
+						</span>
+					</div>
+				</li>
+				<li>
+					<a href="../Shopping_Cart/Shopping_Cart.html" class="user_buy" title="购物袋">购物车</a>
+					<span class="user_buy01">0</span>
+					
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="user_collect" title="我的收藏">
+						<span class="user_hide  A2">我的收藏</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="user_ticket" title="我的优惠劵">
+						<span class="user_hide  A2">我的优惠劵</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="user_bottom">
+				<li>
+					<a href="javascript:void(0)" class="user_hide02">
+						<div class="user_hide03 A2">
+							<img src="../images/img78.png">
+							手机注册有礼
+						</div>
+					</a>
+				</li>
+				<li>
+					<span class="user_hide04" id="Top_01"></span>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="../js/HThome_page_right_status_bar.js"></script>
+	<script type="text/javascript" src="../js/Shopping_Cart.js"></script>
+</html>
